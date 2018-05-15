@@ -1,0 +1,24 @@
+{
+  "name": "learningmanagementsystembackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node dist/server.js"
+  },
+  "author": "Ankita Kumari",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.7",
+    "sequelize-typescript": "^0.6.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "@types/sequelize": "^4.27.17",
+    "typescript": "^2.8.3"
+  }
+}
